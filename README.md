@@ -4,17 +4,17 @@
 
 # ES MUY IMPORTANTE QUE LEAS TODO ESTE DOCUMENTO ANTES DE EMPEZAR A REALIZAR LA PRUEBA
 
-
+## Proyecto Remake AngryBirds 
+Este proyecto consta de una base ya desarrollada de la jugabilidad del famoso juego de Angry Birds : mecánica de lanzamiento de arrastrar y soltar, sonidos, modelos 3d y una poder en medio de vuelo que aumenta la velocidad del ave al presionar en un punto de la pantalla. 
 ## Requerimientos
 > Sección indispensable para la realización de la prueba. A mayor cantidad
 > de requerimientos completados, mayor sera su posibilidad de ser reclutado.
 - Añade una pantalla de selección de las Aves
-  - Cada ave debe tener información propia
-  - Debe existir un feature que distinga cada una.
-- Añade comportamientos diferentes en medio del vuelo
+  - Cada ave debe tener información propia (Nombre, velocidad, poder, etc)
+  - Debe existir un feature que distinga y almacene cada una (sriptable objects).
+- Añade al menos un comportamiento diferente en medio del vuelo
   - Explosión
   - Instanciación de 3 aves
-  - Acelerar dramaticamente el trayecto y aumentar su masa
   - Efecto Boomerang (Al golpear una estructura este haga un efecto boomergan para volver a destruir mas estructuras)
 - Añade un sistema de Audio y sonidos (Valor Creativo)
   - Añade musica (Libre de copyright) a diferentes partes donde creas necesario.
@@ -23,20 +23,22 @@
 - Añade una UI Responsiva
   - Creación de un sistema de Puntajes (Se valora la creatividad)
   - Toda la UI debe verse bien en diferentes dispositivos en horizontal (Tener en cuenta los Safe Area)
-- Identificar las diferentes malas practicas en el codigo (CODE SMELLS)
-  - El proyecto tiene varias malas practicas las cuales deben ser identificadas y solucionadas.
-- Documentación
-  - Todos metodos creados por el aspirante debe ser correctamente documentadas usando XML.
+- Identificar las diferentes malas prácticas en el codigo (CODE SMELLS)
+  - El proyecto tiene varias malas prácticas hechas a propósito, las cuales deben ser identificadas y solucionadas (direccionado a el uso de POO (Encapsulamiento, Herencia, etc), SOLID,clean code, etc)
 - Control de versiones
   - Debe existir una jerarquia en los branches y features.
   - Se valora la creación de una representación grafica de esta jerarquia (Git flow)
-- Graficas UML
+
+- Arquitectura y Optimización
+  - Revisar la estructura de las carpetas y archivos y organizarla de la mejor manera posible
+  - Revisar el codigo en busca de problemas de optimización 
   - Cada estructura o clase modificada debera contar con una representación en un diagrama UML
   
 ## EXTRAS
 >Esta sección no es indispensable pero se tomara en cuenta la implementación o uso de los siguientes componentes.
 
 - Pruebas unitarias
+- Todos metodos creados por el aspirante debe ser correctamente documentadas usando XML.
 - Animación de Pantallas y UI
 - UI Components (Grid Layout, Content Size Fitter, Canvas Group)
 - Control de fisicas (Phyisc Materials, Layer Collision Matrix)
